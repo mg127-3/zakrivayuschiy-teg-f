@@ -30,7 +30,7 @@
   }
 }
 
-.card__icon-button:hover .core{
+.card__icon-button:hover .core {
   fill: var(--unliked-heart-color);
 }
 
@@ -38,7 +38,7 @@
   fill: var(--unliked-heart-color);
 }
 
-.card__icon-button:active .core{
+.card__icon-button:active .core {
   fill: var(--liked-heart-color);
 }
 
