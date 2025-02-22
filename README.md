@@ -1,1 +1,1 @@
-https://github.com/mg127-3/slozhno-sosredotochitsya-fd
+https://github.com/mg127-3/zakrivayuschiy-teg-f
