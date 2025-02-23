@@ -33,7 +33,7 @@
 .header {
   justify-content: center;
   align-items: center;
-  block-size: 368px;
+  padding: 128px 0;
 }
 
 .title {
@@ -85,8 +85,7 @@
   mix-blend-mode: hard-light;
 }
 
-@supports (text-stroke: 1px var(--stroke-color)) or
-  (-webkit-text-stroke: 1px var(--stroke-color)) {
+@supports (text-stroke: 1px var(--stroke-color)) or (-webkit-text-stroke: 1px var(--stroke-color)) {
   .label {
     text-shadow: none;
     text-stroke: 1px var(--stroke-color);
@@ -281,7 +280,7 @@
   }
 
   .header {
-    height: 327px;
+    padding: 120px 0;
   }
 
   .label {
