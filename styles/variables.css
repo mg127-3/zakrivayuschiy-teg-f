@@ -1,19 +1,18 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
---bg-gradient: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
-               repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
-               linear-gradient( #e7e7e7 0%, #e7e7e7 0.1%, #1a1a1a 100% );
---font-inter: Inter-Variable, sans-serif;
---font-pressstart: PressStart2P, monospace;
---container-width: clamp(23.438rem, 16.2859rem + 30.5157vw, 43.75rem);
---bg-color: #fff;
---main-color: #000;
---stroke-color: #fff;
---accent-color: #000;
---hover-accent-color: #fff;
---font-weight-bold: 700;
---card-section-division: solid 2px var(--main-color);
---unliked-heart-color: #000;
---liked-heart-color: #FF0000;
---button-color: #fff;
+  --bg-gradient: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px), repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px), linear-gradient(#e7e7e7 0%, #e7e7e7 0.1%, #1a1a1a 100%);
+  --main-font: Inter-Variable, sans-serif;
+  --accent-font: PressStart2P, fantasy;
+  --container-width: clamp(23.438rem, 16.2859rem + 30.5157vw, 43.75rem);
+  --bg-color: #fff;
+  --main-color: #000;
+  --stroke-color: #fff;
+  --accent-color: #000;
+  --hover-accent-color: #fff;
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+  --card-section-division: solid 2px var(--main-color);
+  --unliked-heart-color: #000;
+  --liked-heart-color: #ff0000;
+  --button-color: #fff;
 }
