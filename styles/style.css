@@ -213,7 +213,7 @@
 }
 
 .inverted {
-  filter: invert(70%);
+  filter: invert(20%);
 }
 
 .grayscaled {
@@ -221,7 +221,7 @@
 }
 
 .hue-rotated-sepia {
-  filter: hue-rotate(0.8turn) sepia(0.5);
+  filter: hue-rotate(0.8turn) sepia(1);
 }
 
 .save-button {
